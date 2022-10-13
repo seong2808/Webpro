@@ -1,0 +1,37 @@
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    
+}
+h1{
+    font-size: 40px;
+}
+ul{
+    margin: 0 auto;
+    width: 400px;
+    list-style: none;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border: 1px solid #efefef;
+    height: 100%;
+    font-size: 12px;
+}
+li{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+}
+#limitDetail{
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+#infomap{
+    margin-bottom: 20px;
+}

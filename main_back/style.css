@@ -1,0 +1,58 @@
+* {
+    margin:0;
+}
+.todo-app{
+    max-width:530px;
+    margin:auto;
+    background-color:#2097ff;
+}
+.title {
+    padding:10px;
+    text-align:center;
+    color:white; 
+}
+.ui.input.focus {
+    text-align:center;
+    padding:10px 0;
+}
+.ui.input.focus input {
+    border:0px;
+}
+.ui.input.focus input:focus {
+    outline:0px;
+}
+.todo-container {
+    background-color:#eee;
+}
+/* List Item 관련 스타일 */
+.todo-container ul {
+    list-style: none;
+}
+.todo-container ul li {
+    padding: 15px 0;
+    cursor:pointer;
+    
+}
+.todo-container ul li:hover{
+    background-color: #aaa;
+}
+.done { /* 완료된 것을 표현 */
+    text-decoration:line-through; /* 취소선 */
+}
+/* 버튼 관련 스타일 */
+button {
+    background-color: #000000;
+    border:0;
+    font-size:24px;
+    color:rgb(9, 10, 10);
+}
+button:active {
+    color:aliceblue;
+}
+.ui.input.focus {
+    display:flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
